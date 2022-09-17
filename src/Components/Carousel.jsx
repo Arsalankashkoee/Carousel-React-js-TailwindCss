@@ -22,7 +22,7 @@ const Carousel = () => {
       <div className="w-full h-full">
         <div
           style={{ backgroundImage: `url(${images[currentImg].img})` }}
-          className="carouselInner relative h-full w-full bg-cover bg-center bg-no-repeat transition-all ease-in-out duration-1000 rounded-md overflow-hidden"
+          className="relative h-full w-full bg-cover bg-center bg-no-repeat transition-all ease-in-out duration-1000 rounded-md overflow-hidden"
         >
           {/* bg-gradient */}
           <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-r from-black/80"></div>
